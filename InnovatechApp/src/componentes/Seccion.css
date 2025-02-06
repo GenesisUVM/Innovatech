@@ -1,0 +1,6 @@
+.seccion{
+    display: flex;
+   flex-direction: column;
+    background: #13BBF3;
+    padding: 1rem;
+}

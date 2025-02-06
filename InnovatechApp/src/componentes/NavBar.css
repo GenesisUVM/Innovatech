@@ -1,0 +1,28 @@
+.custom-navbar{
+    background: #2276FD;
+}
+.custom-navbar img{
+    margin-right: 1rem;
+}
+
+/*Bar de categorias*/
+.contBar{
+    padding: 1rem;
+    background-color: #020887;
+}
+.contBar h2{
+    color: #C0E8FF;
+    
+}
+
+.sideBar{
+    background: #2276FD;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.sideBar .item{
+    background-color: #2276FD;
+    border: none;
+    color: #C0E8FF;
+}

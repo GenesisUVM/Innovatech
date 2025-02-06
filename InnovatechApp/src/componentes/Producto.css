@@ -1,0 +1,11 @@
+.contProductos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardProducto{
+    width: 18rem;
+    padding: 0.5rem;
+    margin: 1.5rem;
+}
