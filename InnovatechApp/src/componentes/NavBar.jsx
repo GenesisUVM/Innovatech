@@ -7,7 +7,7 @@ function NavBar() {
     return(
         <Navbar expand="lg" className="custom-navbar">
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="/">
                     <img src={logo} width="30" height="30" className="d-inline-block align-top" alt="logo" />
                     InnovaTech
                 </Navbar.Brand>

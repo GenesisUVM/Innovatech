@@ -1,16 +1,24 @@
-import NavBar from './componentes/NavBar'
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 import './App.css'
-import SideBar from './componentes/SideBar'
-import Seccion from './componentes/Seccion'
+import Administrador from "./paginas/Administrador"
+import Usuarios from "./paginas/Usuarios"
+import Login from "./paginas/Login"
+import Resgistro from "./paginas/Registro"
+import LoginAdm from "./paginas/LoginAdm"
+
 
 function App() {
   
   return (
-    <>
-      <NavBar />
-      <SideBar />
-      <Seccion />
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Login />} />
+      <Route path='/loginAdm' element={<LoginAdm />} />
+      <Route path='/registro' element={<Resgistro/>} />
+      <Route path='/usuarios' element={<Usuarios/>} />
+      <Route path='/administrador' element={<Administrador />} />
+      </Routes> 
+    </BrowserRouter> 
   )
 }
 

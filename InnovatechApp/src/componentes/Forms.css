@@ -1,0 +1,11 @@
+.formRegistro{
+    background: #FF715B;
+    width: 50%;
+   
+    padding: 2.5rem;
+    display: flex;
+   flex-direction: column;
+   border-radius: 1rem ;
+
+}
+
