@@ -8,9 +8,9 @@ function CardProducto() {
     <Card className='cardProducto'>
       <Card.Img variant="top" src={img} />
       <Card.Body>
-        <Card.Title>Nombre Producto</Card.Title>
+        <Card.Title> Nombre producto</Card.Title>
         <Card.Text>
-          Breve Descripcion del producto
+         Descripcion producto
         </Card.Text>
         <Button variant="primary">Favorito</Button>
       </Card.Body>
