@@ -6,12 +6,12 @@ import ProductosAdm from '../componentes/ProductosAdm'
 
 function Administrador(){
     return(
-        <>
+        <div className='administrador'>
             <NavBar />
             <SideBar />
             <Buscador />
             <ProductosAdm />
-        </>
+        </div>
     )
 };
 

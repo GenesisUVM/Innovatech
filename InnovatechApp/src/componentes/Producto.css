@@ -9,3 +9,12 @@
     padding: 0.5rem;
     margin: 1.5rem;
 }
+
+.cardProducto img{
+    width: 100%;
+}
+
+.modal-content {
+    background-color: #FF715B !important; 
+    color: white;
+  }

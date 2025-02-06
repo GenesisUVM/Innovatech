@@ -1,6 +1,6 @@
 .buscador{
     display: flex;
     width: 90% !important;
-    margin-top: 2rem;
+    margin-top: 1.5rem !important;
     margin: auto;
 }
