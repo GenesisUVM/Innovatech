@@ -1,13 +1,13 @@
 import mongoose from 'mongoose';
 
 const productSchema = mongoose.Schema({
-  nombre: { type: String, required: true },
-  descripcion: { type: String, required: true },
-  precio: { type: Number, required: true },
-  cantidad: { type: Number, required: true },
-  imagen: { type: String, required: true },
+  nombre: { type: mongoose.Schema.Types.String, required: true },
+  descripcion: { type: mongoose.Schema.Types.String, required: true },
+  precio: { type: mongoose.Schema.Types.Number, required: true },
+  cantidad: { type: mongoose.Schema.Types.Number, required: true },
+  imagen: { type: mongoose.Schema.Types.String, required: true },
   categoria: {
-    type: String,
+    type: mongoose.Schema.Types.String,
     enum: [
       'dispositivos moviles',
       'computadoras',

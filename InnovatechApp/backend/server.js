@@ -13,9 +13,12 @@ connectDB();
 
 const app = express();
 
+
 // Middlewares
 app.use(express.json()); // Para parsear JSON
-app.use(cors());
+app.use(cors({
+  origin : 'http://localhost:5173',
+}));
 
 // Rutas
 app.use('/api/auth', authRoutes);
@@ -26,3 +29,5 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en el puerto ${PORT}`);
 });
+
+export default app;
